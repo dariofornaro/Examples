@@ -13,7 +13,7 @@ public abstract class Operation {
 	}
 	
 	public static Operation parseOperator(String o) {
-		Operation[] ops = new Operation[] {new addition(), new multiplication()};
+		Operation[] ops = new Operation[] {new addition(), new subtraction(),new multiplication()};
 		for (Operation op : ops) {
 			if(o.equals(op.getOperator())) {
 				return op;

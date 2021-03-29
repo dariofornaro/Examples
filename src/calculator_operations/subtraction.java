@@ -1,7 +1,7 @@
 package calculator_operations;
 
-public class subtraction {
-	public class multiplication extends Operation {
+public class subtraction extends Operation {
+	
 		@Override
 		public String getName() {
 			return "subtraction";
@@ -18,4 +18,4 @@ public class subtraction {
 		 }
 	}
 
-}
+
